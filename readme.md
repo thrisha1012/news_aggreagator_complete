@@ -33,7 +33,7 @@ FRONTEND-npm run dev
 
 GIT:
 INITIALLY :
-1) git clone https://github.com/username/repository.git
+1) git clone https://github.com/Sudharshanab24/News_agg.git
 2) git checkout -b feature-branch-name
 3) git add .
 4) git commit -m "Description of changes"
