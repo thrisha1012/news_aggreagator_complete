@@ -16,8 +16,12 @@ npm install vite@latest
 npm install react-scripts --save
 npm install react-router-dom
 
+npm install react-i18next i18next
+
 npm install react-slick slick-carousel
 npm install node-fetch@2
+
+
 
 FOR TAILWIND:
 npm install --save @fortawesome/react-fontawesome
