@@ -19,6 +19,16 @@ npm install react-router-dom
 npm install react-slick slick-carousel
 npm install node-fetch@2
 
+FOR TAILWIND:
+npm install --save @fortawesome/react-fontawesome
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons
+npm install --save @fortawesome/free-brands-svg-icons
+npm install --save @fortawesome/fontawesome-svg-core
+
+
+
+
 
 RUN:
 
@@ -47,7 +57,7 @@ Add a title and description, then click "Create pull request."
 11) git checkout main
 12) git pull origin main
 
-TO VIEW CHANGES:
+TO VIEW CHANGES :
 1) git pull 
 
 FOR SMALL CHANGES:
