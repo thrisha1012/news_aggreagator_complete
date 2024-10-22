@@ -58,7 +58,7 @@ Add a title and description, then click "Create pull request."
 12) git pull origin main
 
 TO VIEW CHANGES :
-1) git pull 
+1) git pull origin main
 
 FOR SMALL CHANGES:
 1) git add .
