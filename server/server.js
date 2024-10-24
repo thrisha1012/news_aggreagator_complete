@@ -60,16 +60,6 @@ app.get("/top-headlines",(req,res)=>{
 })
 
 
-app.options("/country/:iso",cors());
-app.get("/country/:iso",(req,res)=>{
-    let pageSize=parseInt(req.query.pageSize) || 20;
-    let page =parseInt(req.query.page)||1;
-    const country=req.params.iso;
-    
-    let url=`https://newsapi.org/v2/top-headlines?country=${country}&page=${page}&pageSize=${pageSize}&apiKey=${API_KEY}`
-    fetchNews(url,res);
-
-})
 
 const PORT=process.env.PORT || 3000;
 
