@@ -6,6 +6,8 @@ BACKEND:
 
 touch .env
 npm install express axios cors dotenv
+npm install mongoose bcrypt jsonwebtoken
+
 
 
 FRONTEND:
