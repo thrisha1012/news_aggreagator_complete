@@ -66,7 +66,7 @@ FOR SMALL CHANGES:
 2) git commit -m "Small change description"
 3) git push origin main
 
-
+changes made
 
 
 
