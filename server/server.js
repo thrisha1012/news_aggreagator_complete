@@ -25,10 +25,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-mongoose.connect('mongodb://localhost:27017/your_db_name', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  });
+mongoose.connect('mongodb://localhost:27017/your_db_name');
   
   const userSchema = new mongoose.Schema({
     email: { type: String, required: true, unique: true },
